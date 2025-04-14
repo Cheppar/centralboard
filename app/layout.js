@@ -15,7 +15,7 @@ const outfitBold = localFont({
 });
 
 const outfitLight = localFont({
-  src: "./fonts/supabasefont/CustomFont-Medium.woff2",
+  src: "./fonts/supabasefont/CustomFont-medium.woff2",
   variable: "--font-outfit-light", // Variable for light font
   weight: "200 900", // Light weight
 });
