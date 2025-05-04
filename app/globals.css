@@ -1,6 +1,37 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+body {
+  font-family: var(--font-outfit); /* Use the correct variable here */
+}
+
+h1, h2, h3 {
+  font-family: var(--font-outfit-bold); /* Use the correct bold variable */
+  font-weight: 700;
+}
+
+p {
+  font-family: var(--font-outfit-light); /* Use the regular weight for paragraphs */ 
+  font-weight: 200;
+}
+
+a{
+  font-family: var(--font-outfit-light); /* Use the regular weight for paragraphs */ 
+  font-weight: 100;
+}
+
+button {
+  font-family: var(--font-outfit-light); /* Example for bold button text */
+}
+label{
+  font-family: var(--font-outfit-light); /* Use the regular weight for paragraphs */ 
+  font-weight: 100;
+}
+input {
+  font-family: var(--font-outfit-light); /* Use the regular weight for paragraphs */ 
+  font-weight: 100;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {

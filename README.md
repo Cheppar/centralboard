@@ -45,3 +45,4 @@ A Next.js-based web application with a customizable full-width banner. A form to
    ```bash
    git clone <your-repo-url>
    cd black-coffee-network
+   ``npm run dev``
