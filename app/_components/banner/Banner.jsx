@@ -1,4 +1,3 @@
-// app/page.tsx
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
@@ -25,7 +24,7 @@ const Home = () => {
     color: "#2563eb",
   });
   const [buttonText, setButtonText] = useState("View Hikes");
-  const [buttonLink, setButtonLink] = useState("https://example.com");
+  const [buttonLink, setButtonLink] = useState("https://cheppar.co.ke");
   const [borderWidth, setBorderWidth] = useState(0.5);
   const [marginColor, setMarginColor] = useState("#000000");
   const [backgroundImage, setBackgroundImage] = useState("/banner/wave.jpg");
@@ -54,7 +53,7 @@ const Home = () => {
   return (
     <div className="min-h-screen mt-16 bg-gray-100">
       {isBannerVisible && (
-        <section className="w-full min-h-[300px] md:min-h-[400px] ml-0 mr-4 sm:mr-6 md:mr-8 flex items-center justify-center relative rounded-xl overflow-hidden">
+        <section className="w-full min-h-[200px] md:min-h-[300px] ml-0 mr-4 sm:mr-6 md:mr-8 flex items-center justify-center relative rounded-xl overflow-hidden">
           <div className="absolute inset-0 z-0 rounded-xl">
             <Image
               src={backgroundImage}

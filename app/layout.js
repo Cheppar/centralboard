@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Provider from "./Provider";
+import { Analytics } from "@vercel/analytics/react"
 
 const outfitRegular = localFont({
   src: "./fonts/supabasefont/CustomFont-Black.woff2",
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
           className={`${outfitRegular.variable} ${outfitBold.variable} ${outfitLight.variable} antialiased`}
         >
           <Provider> 
+          <Analytics/>
         {children}
         </Provider>
       </body>
