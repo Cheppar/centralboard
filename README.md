@@ -44,5 +44,9 @@ A Next.js-based web application with a customizable full-width banner. A form to
 1. **Clone Repository**:
    ```bash
    git clone <your-repo-url>
+<<<<<<< HEAD
    cd black-coffee-network
    ``npm run dev``
+=======
+   cd repo-name
+>>>>>>> 5d23fd26d91736ae8e3f52e6ca0c59a88be2c8fb
