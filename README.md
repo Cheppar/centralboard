@@ -41,12 +41,15 @@ A Next.js-based web application with a customizable full-width banner. A form to
 - **Version Control**: Git
 
 ## Setup
-1. **Clone Repository**:
-   ```bash
-   git clone <your-repo-url>
-<<<<<<< HEAD
-   cd black-coffee-network
-   ``npm run dev``
-=======
-   cd repo-name
->>>>>>> 5d23fd26d91736ae8e3f52e6ca0c59a88be2c8fb
+1. Clone repo. Use green btn above
+
+2.  access folder ``` cd centralboard ```
+  
+3.  run ``` npm run dev ```
+
+##  Usage
+
+## Testing
+
+## Contact
+
